@@ -1,0 +1,11 @@
+/* @media screen and (max-width: 900px) {
+    .searchBar{
+      width: 50%;
+    }
+  } */
+
+
+    .searchBar{
+      width: 15vh;
+      /* height: 6vh; */
+    }

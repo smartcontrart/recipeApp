@@ -1,0 +1,42 @@
+.card{
+    width: 100%;
+}
+
+/* .cardBody{
+    width: 100%; */
+/* } */
+
+.cardText{
+    display: flex;
+    flex-direction: row;
+}
+
+.preparationInformationTable{
+    width: 50%;
+}
+
+.nutritionInformationTable{
+    width: 50%;
+}
+
+.tableLabel{
+    width: 70%;
+}
+
+.tableMeasure{
+    width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    .cardText{
+        flex-direction: column;
+    }
+
+    .preparationInformationTable{
+        width: 100%;
+    }
+
+    .nutritionInformationTable{
+        width: 100%;
+    }
+  }

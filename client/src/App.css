@@ -1,0 +1,31 @@
+.App{
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+.AppContent{
+  margin: 0% 20% 0% 20%;
+  padding: 1% 2% 1% 2%;
+  background-color: white;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .AppContent{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .AppContent{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .AppContent{
+    margin: 2%;
+  }
+}

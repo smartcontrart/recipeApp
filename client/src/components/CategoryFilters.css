@@ -1,0 +1,21 @@
+.promotedCategories{
+  width: 100%;
+  height: 8vh;
+}
+
+.checkboxFrom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.checkbox{
+  width: 32%;
+  margin-left: 1%;
+}
+
+@media screen and (max-width: 900px) {
+  .checkbox{
+    width: 49%;
+  }
+}

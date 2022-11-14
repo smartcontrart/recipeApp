@@ -1,0 +1,41 @@
+.cardControlPanel{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.recipeInformation{
+    display: flex;
+    flex-direction: column;
+}
+
+.guestControls{
+    display: flex;
+    flex-direction: row;
+}
+
+.guestControlButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.guestButton{
+    display: flex;
+    align-items: center;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0vh 1vh 0vh;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+    height: 50%;
+}
+
+.guestCounter{
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+}

@@ -1,0 +1,14 @@
+.meal{
+    margin: 3vh 0 3vh;
+    border: none;
+}
+
+
+.mealRecipes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-between ;
+}
+

@@ -1,0 +1,23 @@
+.searchResults{
+    height: 200px;
+    width: 200px;
+    z-index: 100;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    position: absolute;
+    top: calc(1.5em + 1.5rem);
+    width: 75%;
+    height: auto;
+    color: black;
+    padding: 2vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .searchResults{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+    }
+  }

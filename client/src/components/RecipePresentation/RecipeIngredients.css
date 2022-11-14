@@ -1,0 +1,19 @@
+.ingredientList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ingredient{
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    /* .ingredientList{
+        flex-direction: column;
+    } */
+    .ingredient{
+        width: 100%;
+    }
+  }

@@ -1,0 +1,28 @@
+.profile{
+    display: flex;
+}
+
+.logout{
+    margin-top: 2vh;
+    width: 15%;
+}
+
+.userPreferences{
+    width: 85%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userPreferences{
+        width: 100%;
+    }
+
+    .logout{
+        width: 100%;
+    }
+  }

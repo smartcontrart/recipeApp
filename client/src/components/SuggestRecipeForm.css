@@ -1,0 +1,20 @@
+.removeGroup{
+    display: flex;
+}
+.removeButton{
+    align-self: bottom;
+    border-radius: 0.25rem;
+    align-self: flex-end;
+}
+
+.formDropDown{
+    margin-bottom: 0;
+}
+
+.instructionsRow{
+    margin-bottom: 1rem;
+}
+
+.removeInstruction{
+    width: 2vh;
+}
